@@ -33,3 +33,7 @@ AI 영역 검출 모델, 서버에서 사용하는 유용한 기능 모음
 - 학습한 모델을 불러와 입력 영상에 대해 프레임 단위로 segmentation 을 수행
 - 영역 검출한 object(region-영역)에 대해 labeling 막스를 frame 별로 생성
 - 영상을 mp4 파일로 저장
+
+## 실행
+- video-segmentation.py 에서 모델의 경로, 영상을 만들기 위핸 설정값 변수들을 수정
+- `python video-segmentation.py` 명령어 실행
